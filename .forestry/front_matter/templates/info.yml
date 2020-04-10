@@ -1,0 +1,40 @@
+---
+label: Info
+hide_body: true
+fields:
+- type: field_group_list
+  name: Useful info
+  label: Useful info
+  fields:
+  - type: text
+    name: id
+    label: id
+  - type: textarea
+    name: title
+    label: title
+  - type: text
+    name: date
+    label: date
+  - type: text
+    name: readMoreText
+    label: readMoreText
+  - type: textarea
+    name: overview
+    label: overview
+  - type: field_group_list
+    name: sections
+    label: sections
+    fields:
+    - type: text
+      name: type
+      label: type
+    - type: field_group
+      name: value
+      label: value
+      fields:
+      - type: text
+        name: type
+        label: type
+      - type: textarea
+        name: value
+        label: value
