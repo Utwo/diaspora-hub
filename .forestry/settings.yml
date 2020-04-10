@@ -7,7 +7,6 @@ sections:
 - type: document
   path: frontend/src/data/useful-contacts.json
   label: Contacts
-  match: "**/*"
 - type: directory
   path: "./frontend/src/data"
   label: Data
