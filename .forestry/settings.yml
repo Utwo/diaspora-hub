@@ -16,9 +16,12 @@ front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
+  preview_env:
+  - PORT=8080
+  - HOST=0.0.0.0
   preview_output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: node:10
   mount_path: "/srv"
   working_dir: "/srv/frontend"
-  instant_preview_command: npm start -- --port 8080 --host 0.0.0.0
+  instant_preview_command: npm start
