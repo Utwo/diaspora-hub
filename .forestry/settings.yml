@@ -5,6 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: frontend/src/data/useful-info.json
+  label: Info
+  match: "**/*"
+- type: document
   path: frontend/src/data/useful-contacts.json
   label: Contacts
 - type: directory
