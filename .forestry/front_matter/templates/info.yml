@@ -38,3 +38,11 @@ fields:
       - type: textarea
         name: value
         label: value
+- name: block
+  type: blocks
+  label: block
+  template_types:
+  - info
+  config:
+    min: 
+    max: 
